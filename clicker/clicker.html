@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sørlandschips Clicker</title>
+    <link href="main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<center>
+    	<div id="menu">
+    		<h1>Sørlandschips Clicker</h1>
+        </div>
+        <p>The most realistic Sørlandschips Clicker since ever!</p>
+        <p>Scroll down to start pressing the Sørlandschips bag</p>
+        <br />
+        <br />
+        <script type="text/javascript">
+		
+			var clicks = 0;
+			function hello() {
+				clicks += 1;
+				document.getElementById("clicks").innerHTML = clicks;
+			};
+		</script>
+        <img height="463" weight="350" src="sorland.png" onClick="hello()">
+        <p>Number of times you touched the Sørlandschips bag: <div id="pa"><a id="clicks">0</a></div></p>
+        <br />
+        <br />
+        <p>*sponset av <a href="http://sorlandschips.no/">"Sørlandschips AS – Mjåvannsvegen 38, 4628 Kristiansand</a></p>
+    </center>
+</body>
+</html>

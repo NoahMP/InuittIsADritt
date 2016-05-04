@@ -1,0 +1,38 @@
+body {
+	background-image:url(bg.png);
+}
+
+#menu {
+	background-color: #009ca8; /* Green */
+    border: none;
+    color: white;
+    padding: 0px 500px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+}
+
+#pa {
+	font-size:40px;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color:009ca8;
+}
+
+a:hover {
+	text-decoration:underline;
+	font-size:18px;
+	color:#009ca8;
+}
